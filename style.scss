@@ -140,7 +140,11 @@ nav {
   table {
     td:first-child {
       color: $title-color;
+      // text-align: right;
     }
+    // td:nth-child(2) {
+    //   text-align: left;
+    // }
   }
   .table-hover tr:hover {
     background-color: #0088a014;
@@ -169,10 +173,16 @@ nav {
       margin: 0 auto;
     }
     table {
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
-      text-align: center;
       margin-top: 30px;
+      font-size: 13px;
+      td:nth-child(1) {
+        text-align: right;
+      }
+      td:nth-child(2) {
+        text-align: left;
+      }
     }
   }
 }
